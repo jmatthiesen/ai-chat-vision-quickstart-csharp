@@ -13,9 +13,9 @@ builder.Services.AddOpenAIChatCompletion("gpt-4o-mini", Environment.GetEnvironme
 
 // Azure AI Model Catalog (Azure AI Inference SDK)
 #pragma warning disable SKEXP0070 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
-//builder.Services.AddAzureAIInferenceChatCompletion("Phi-3-5-vision-instruct-neclq",
+//builder.Services.AddAzureAIInferenceChatCompletion("model-deployment",
 //            Environment.GetEnvironmentVariable("AZURE_INFERENCE_KEY"),
-//            new Uri("https://Phi-3-5-vision-instruct-neclq.eastus.models.ai.azure.com"));
+//            new Uri("modelEndpoint"));
 
 // Ollama:
 //builder.Services.AddOllamaChatCompletion("llama3.1", new Uri("http://localhost:11434"));
